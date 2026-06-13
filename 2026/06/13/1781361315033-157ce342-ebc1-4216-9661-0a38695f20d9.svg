@@ -1,0 +1,36 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">硬盘空间影响速度</title>
+  <desc id="desc">系统盘空间不足会影响缓存、更新、临时文件和虚拟内存的正常使用</desc>
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <text x="70" y="84" fill="#111827" font-size="42" font-weight="700">系统盘太满，电脑就没有喘息空间</text>
+    <text x="72" y="130" fill="#475569" font-size="24">缓存、更新、临时文件和虚拟内存都需要可用空间</text>
+    <g transform="translate(130 220)">
+      <rect width="940" height="110" rx="30" fill="#e5e7eb"/>
+      <rect width="770" height="110" rx="30" fill="#ef4444"/>
+      <rect x="770" width="170" height="110" rx="30" fill="#cbd5e1"/>
+      <text x="42" y="70" fill="#ffffff" font-size="34" font-weight="700">C 盘已占用 82%</text>
+      <text x="800" y="70" fill="#334155" font-size="28" font-weight="700">剩余空间</text>
+    </g>
+    <g transform="translate(105 420)" font-size="24">
+      <rect width="220" height="120" rx="18" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="36" y="52" fill="#111827" font-weight="700">聊天文件</text>
+      <text x="36" y="88" fill="#64748b" font-size="20">图片、视频、文档</text>
+    </g>
+    <g transform="translate(365 420)" font-size="24">
+      <rect width="220" height="120" rx="18" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="36" y="52" fill="#111827" font-weight="700">浏览器缓存</text>
+      <text x="36" y="88" fill="#64748b" font-size="20">网页、下载、临时包</text>
+    </g>
+    <g transform="translate(625 420)" font-size="24">
+      <rect width="220" height="120" rx="18" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="36" y="52" fill="#111827" font-weight="700">系统更新</text>
+      <text x="36" y="88" fill="#64748b" font-size="20">补丁和残留文件</text>
+    </g>
+    <g transform="translate(885 420)" font-size="24">
+      <rect width="220" height="120" rx="18" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="36" y="52" fill="#111827" font-weight="700">桌面大文件</text>
+      <text x="36" y="88" fill="#64748b" font-size="20">视频、安装包、素材</text>
+    </g>
+  </g>
+</svg>
