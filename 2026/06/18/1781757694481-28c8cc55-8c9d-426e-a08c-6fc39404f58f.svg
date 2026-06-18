@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#fff"/>
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M220 555c50 52 270 52 325 0l-35 120c-60 45-210 45-260 0z"/>
+    <path d="M245 510c70 42 215 42 280 0"/>
+    <path d="M300 470c-20-60 25-80 0-135" stroke="#d33"/>
+    <path d="M390 465c20-70-25-90 10-145" stroke="#d33"/>
+    <path d="M485 485c12-45-5-70 18-115" stroke="#d33"/>
+    <path d="M710 470c120 15 230 15 340-5" stroke="#f28c28" stroke-width="8"/>
+    <path d="M1025 445l36 20-36 18" stroke="#f28c28" stroke-width="8"/>
+    <rect x="1060" y="220" width="300" height="450" rx="20"/>
+    <path d="M1060 340h300"/>
+    <path d="M1120 285l140 12"/>
+    <path d="M1115 410l135-15"/>
+    <path d="M1135 485l100 25"/>
+    <circle cx="1250" cy="575" r="35"/>
+    <path d="M1230 575h40M1250 555v40"/>
+  </g>
+  <g fill="#111">
+    <path d="M185 305c55-8 92 25 92 80 0 58-32 93-88 93-58 0-93-32-94-86-1-49 32-78 90-87z"/>
+    <circle cx="170" cy="382" r="8" fill="#fff"/><circle cx="209" cy="382" r="8" fill="#fff"/>
+    <path d="M168 475c-13 45-28 70-50 98" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M230 474c20 42 35 65 58 88" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M242 360c35-40 70-58 105-76" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M1020 345c70-8 112 26 115 90 3 68-35 108-102 108-68 0-108-38-107-100 1-55 35-90 94-98z"/>
+    <circle cx="1003" cy="432" r="9" fill="#fff"/><circle cx="1050" cy="430" r="9" fill="#fff"/>
+    <path d="M1000 542c-16 50-30 82-58 112" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M1080 540c16 50 33 78 65 108" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <g font-family="KaiTi, STKaiti, SimSun, serif" font-size="42" fill="#111">
+    <text x="300" y="270" fill="#d33">别急</text>
+    <text x="1110" y="190">先看现场</text>
+    <text x="820" y="425" fill="#f28c28">再动手</text>
+    <text x="1135" y="740" fill="#2f6fbd">少走弯路</text>
+  </g>
+</svg>
