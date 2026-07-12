@@ -1,0 +1,34 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="680" height="300" fill="#fafbfc" rx="8"/>
+  <text x="340" y="25" fill="#333" font-size="14" font-weight="700" text-anchor="middle">全部门广义总债务约410万亿（宏观杠杆率325%）</text>
+  <rect x="40" y="50" width="310" height="30" fill="#2980b9" rx="3"/>
+  <text x="55" y="70" fill="#fff" font-size="13" font-weight="700">企业部门 194.88万亿</text>
+  <text x="310" y="70" fill="#fff" font-size="12" font-weight="700">47.5%</text>
+  <rect x="350" y="50" width="160" height="30" fill="#1D9E75" rx="3"/>
+  <text x="360" y="70" fill="#fff" font-size="11" font-weight="700">政府100.6万亿</text>
+  <text x="470" y="70" fill="#fff" font-size="11" font-weight="700">24.5%</text>
+  <rect x="510" y="50" width="100" height="30" fill="#e74c3c" rx="3"/>
+  <text x="518" y="70" fill="#fff" font-size="10" font-weight="700">居民83.58万亿</text>
+  <text x="570" y="70" fill="#fff" font-size="10" font-weight="700">20.4%</text>
+  <rect x="610" y="50" width="30" height="30" fill="#f0a020" rx="3"/>
+  <text x="625" y="70" fill="#fff" font-size="9" text-anchor="middle">7.3%</text>
+  <text x="40" y="110" fill="#2980b9" font-size="13" font-weight="700">企业部门 194.88万亿（47.5%）</text>
+  <text x="55" y="130" fill="#666" font-size="11">含房企开发贷13.17万亿 | 企业债券+信托贷款+其他融资</text>
+  <text x="55" y="148" fill="#888" font-size="10">→ 占近半壁江山，企业杠杆是中国经济最重的一环</text>
+  <text x="40" y="175" fill="#1D9E75" font-size="13" font-weight="700">政府显性 100.6万亿（24.5%）</text>
+  <text x="55" y="195" fill="#666" font-size="11">国债 + 地方债 | 城投隐性有息债务约30万亿未计入</text>
+  <text x="55" y="213" fill="#888" font-size="10">→ 加上城投隐性，政府实际债务约130万亿</text>
+  <text x="40" y="240" fill="#e74c3c" font-size="13" font-weight="700">居民部门 83.58万亿（20.4%）</text>
+  <text x="55" y="260" fill="#666" font-size="11">房贷36.72万亿为主 | 消费贷+经营贷+其他</text>
+  <text x="55" y="278" fill="#888" font-size="10">→ 房贷占居民债务44%，是居民杠杆的核心</text>
+  <rect x="500" y="100" width="160" height="180" fill="#fff8e8" rx="6" stroke="#f0a020" stroke-width="1"/>
+  <text x="580" y="122" fill="#d48806" font-size="12" font-weight="700" text-anchor="middle">房地产专项债务</text>
+  <line x1="510" y1="132" x2="650" y2="132" stroke="#f0a020" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="510" y="152" fill="#555" font-size="11">央行口径：51.7万亿</text>
+  <text x="510" y="170" fill="#555" font-size="10">  房贷36.72 + 开发贷13.17</text>
+  <text x="510" y="195" fill="#555" font-size="11">广义口径：59~68万亿</text>
+  <text x="510" y="213" fill="#555" font-size="10">  +地产信托+ABS+上下游</text>
+  <line x1="510" y1="225" x2="650" y2="225" stroke="#f0a020" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="510" y="245" fill="#d48806" font-size="11" font-weight="600">占全社会总债务</text>
+  <text x="510" y="263" fill="#d48806" font-size="13" font-weight="700">13%~17%</text>
+</svg>
