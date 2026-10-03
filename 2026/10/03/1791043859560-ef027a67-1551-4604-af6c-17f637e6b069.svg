@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 798" width="760" height="798">
+<defs>
+  <style>
+    text { font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+    .mono { font-family: 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1D4ED8"/><stop offset="100%" stop-color="#60A5FA"/></linearGradient>
+  <linearGradient id="gOrange" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#C2410C"/><stop offset="100%" stop-color="#FB923C"/></linearGradient>
+  <linearGradient id="gGreen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#15803D"/><stop offset="100%" stop-color="#4ADE80"/></linearGradient>
+  <linearGradient id="gPurple" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6D28D9"/><stop offset="100%" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="gSlate" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#475569"/><stop offset="100%" stop-color="#94A3B8"/></linearGradient>
+  <linearGradient id="gTeal" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F766E"/><stop offset="100%" stop-color="#2DD4BF"/></linearGradient>
+  <filter id="shadowSm"><feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#64748B" flood-opacity="0.12"/></filter>
+  <marker id="arr_gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#94A3B8"/></marker>
+  <marker id="arr_green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#22C55E"/></marker>
+  <marker id="arr_blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B82F6"/></marker>
+  <marker id="arr_orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#F97316"/></marker>
+  <marker id="arr_red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#EF4444"/></marker>
+</defs>
+<rect width="760" height="798" fill="#F8FAFC"/>
+<text x="380" y="48" font-size="26" font-weight="800" fill="#0F172A" text-anchor="middle">压缩:把旧对话写成摘要</text>
+<text x="380" y="76" font-size="14" font-weight="400" fill="#64748B" text-anchor="middle">触发、选切点、写摘要、过审计、追加事件,五步</text>
+<rect x="40" y="104" width="680" height="290" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowSm)"/>
+<text x="58" y="136" font-size="13" font-weight="800" fill="#1E40AF" text-anchor="start">① 触发</text>
+<text x="150" y="136" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">上下文超过 窗口 − 预留,或者模型报溢出,或者你敲 /compact</text>
+<text x="58" y="178" font-size="13" font-weight="800" fill="#1E40AF" text-anchor="start">② 选切点</text>
+<text x="150" y="178" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">从最新的消息往前累计,凑够 20,000 token 就停</text>
+<text x="150" y="202" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">切点不会落在工具结果上,调用和结果不拆开</text>
+<text x="58" y="244" font-size="13" font-weight="800" fill="#1E40AF" text-anchor="start">③ 写摘要</text>
+<text x="150" y="244" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">切点之前的旧消息,交给会话当前的模型写</text>
+<text x="150" y="268" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">也可以用 compaction.model 指定别的模型</text>
+<text x="58" y="310" font-size="13" font-weight="800" fill="#1E40AF" text-anchor="start">④ 过审计</text>
+<text x="150" y="310" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">摘要要过质量检查(safeguard 模式,默认),下一节细讲</text>
+<text x="58" y="352" font-size="13" font-weight="800" fill="#1E40AF" text-anchor="start">⑤ 记一笔</text>
+<text x="150" y="352" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">转录里追加一条 compaction 事件,原始记录留在磁盘上</text>
+<text x="40" y="424" font-size="13" font-weight="700" fill="#64748B" text-anchor="start">压缩之前</text>
+<clipPath id="clipA"><rect x="40" y="434" width="680" height="50" rx="10"/></clipPath>
+<g clip-path="url(#clipA)"><rect x="40" y="434" width="470" height="50" fill="#E2E8F0"/><rect x="510" y="434" width="210" height="50" fill="#BBF7D0"/></g>
+<rect x="40" y="434" width="680" height="50" rx="10" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="275" y="464" font-size="13" font-weight="700" fill="#475569" text-anchor="middle">旧消息(要被摘要的这一段)</text>
+<text x="615" y="464" font-size="13" font-weight="700" fill="#166534" text-anchor="middle">最近约 20,000 token</text>
+<line x1="380" y1="488" x2="380" y2="530" stroke="#94A3B8" stroke-width="2.5" marker-end="url(#arr_gray)"/>
+<text x="396" y="516" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">压缩</text>
+<text x="40" y="556" font-size="13" font-weight="700" fill="#64748B" text-anchor="start">压缩之后</text>
+<clipPath id="clipB"><rect x="40" y="566" width="680" height="50" rx="10"/></clipPath>
+<g clip-path="url(#clipB)"><rect x="40" y="566" width="170" height="50" fill="#BFDBFE"/><rect x="210" y="566" width="510" height="50" fill="#BBF7D0"/></g>
+<rect x="40" y="566" width="680" height="50" rx="10" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="125" y="596" font-size="13" font-weight="700" fill="#1E40AF" text-anchor="middle">摘要</text>
+<text x="465" y="596" font-size="13" font-weight="700" fill="#166534" text-anchor="middle">最近的原文,原样保留</text>
+<rect x="40" y="642" width="680" height="132" rx="12" fill="#0F172A" stroke="#0F172A" stroke-width="1" filter="url(#shadowSm)"/>
+<text x="64" y="672" font-size="14" font-weight="700" fill="#FBBF24" text-anchor="start">几件要知道的事</text>
+<text x="64" y="700" font-size="13" font-weight="400" fill="#E2E8F0" text-anchor="start">原始记录还在磁盘上,文档原话:"The full conversation history stays on disk."</text>
+<text x="64" y="722" font-size="13" font-weight="400" fill="#E2E8F0" text-anchor="start">摘要只收文字,图片用占位符代替。</text>
+<text x="64" y="744" font-size="13" font-weight="400" fill="#E2E8F0" text-anchor="start">取消压缩不是回滚,已经完成的压缩会保留。</text>
+</svg>
